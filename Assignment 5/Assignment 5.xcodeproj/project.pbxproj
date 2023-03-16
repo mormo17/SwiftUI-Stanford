@@ -11,9 +11,6 @@
 		D1ACAD4129B5EC0000BAC122 /* EmojiArtDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ACAD4029B5EC0000BAC122 /* EmojiArtDocumentView.swift */; };
 		D1ACAD4329B5EC0100BAC122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1ACAD4229B5EC0100BAC122 /* Assets.xcassets */; };
 		D1ACAD4629B5EC0100BAC122 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1ACAD4529B5EC0100BAC122 /* Preview Assets.xcassets */; };
-		D1ACAD5029B5EC0100BAC122 /* Assignment_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ACAD4F29B5EC0100BAC122 /* Assignment_5Tests.swift */; };
-		D1ACAD5A29B5EC0100BAC122 /* Assignment_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ACAD5929B5EC0100BAC122 /* Assignment_5UITests.swift */; };
-		D1ACAD5C29B5EC0100BAC122 /* Assignment_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ACAD5B29B5EC0100BAC122 /* Assignment_5UITestsLaunchTests.swift */; };
 		D1ACAD6929B5ECF700BAC122 /* EmojiArtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ACAD6829B5ECF700BAC122 /* EmojiArtModel.swift */; };
 		D1ACAD6B29B5EE6C00BAC122 /* EmojiArtModel.Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ACAD6A29B5EE6C00BAC122 /* EmojiArtModel.Background.swift */; };
 		D1ACAD6D29B5EEE000BAC122 /* EmojiArtDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ACAD6C29B5EEDF00BAC122 /* EmojiArtDocument.swift */; };
@@ -52,10 +49,7 @@
 		D1ACAD4229B5EC0100BAC122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1ACAD4529B5EC0100BAC122 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1ACAD4B29B5EC0100BAC122 /* Assignment 5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1ACAD4F29B5EC0100BAC122 /* Assignment_5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_5Tests.swift; sourceTree = "<group>"; };
 		D1ACAD5529B5EC0100BAC122 /* Assignment 5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1ACAD5929B5EC0100BAC122 /* Assignment_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_5UITests.swift; sourceTree = "<group>"; };
-		D1ACAD5B29B5EC0100BAC122 /* Assignment_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D1ACAD6829B5ECF700BAC122 /* EmojiArtModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtModel.swift; sourceTree = "<group>"; };
 		D1ACAD6A29B5EE6C00BAC122 /* EmojiArtModel.Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtModel.Background.swift; sourceTree = "<group>"; };
 		D1ACAD6C29B5EEDF00BAC122 /* EmojiArtDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocument.swift; sourceTree = "<group>"; };
@@ -104,8 +98,6 @@
 				D1CFDF1729BF3CB600E64C24 /* Helpers */,
 				D1CFDF1429BF3C8A00E64C24 /* Extensions */,
 				D1ACAD3D29B5EC0000BAC122 /* Assignment 5 */,
-				D1ACAD4E29B5EC0100BAC122 /* Assignment 5Tests */,
-				D1ACAD5829B5EC0100BAC122 /* Assignment 5UITests */,
 				D1ACAD3C29B5EC0000BAC122 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,23 +128,6 @@
 				D1ACAD4529B5EC0100BAC122 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D1ACAD4E29B5EC0100BAC122 /* Assignment 5Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D1ACAD4F29B5EC0100BAC122 /* Assignment_5Tests.swift */,
-			);
-			path = "Assignment 5Tests";
-			sourceTree = "<group>";
-		};
-		D1ACAD5829B5EC0100BAC122 /* Assignment 5UITests */ = {
-			isa = PBXGroup;
-			children = (
-				D1ACAD5929B5EC0100BAC122 /* Assignment_5UITests.swift */,
-				D1ACAD5B29B5EC0100BAC122 /* Assignment_5UITestsLaunchTests.swift */,
-			);
-			path = "Assignment 5UITests";
 			sourceTree = "<group>";
 		};
 		D1CFDF1329BF3C8100E64C24 /* Models */ = {
@@ -354,7 +329,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1ACAD5029B5EC0100BAC122 /* Assignment_5Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,8 +336,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1ACAD5A29B5EC0100BAC122 /* Assignment_5UITests.swift in Sources */,
-				D1ACAD5C29B5EC0100BAC122 /* Assignment_5UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
